@@ -22,7 +22,7 @@ export function WeatherCard({ data }) {
         <div className="text-right">
           <span className="block font-semibold">{weather[0].main}</span>
           <span className="block text-sm">
-            Feels like {Math.random(main.feels_like)} <sup>&deg;C</sup>
+            Feels like {Math.round(main.feels_like)} <sup>&deg;C</sup>
           </span>
         </div>
       </div>
